@@ -6,46 +6,14 @@ import Grid2 from "@mui/material/Unstable_Grid2/Grid2";
 import { Phones } from "../components/Phones";
 import { Facebook, PlayArrow } from "@mui/icons-material";
 import { StaticImage } from "gatsby-plugin-image";
+import { HeroSection } from "../components/HeroSection";
 
 const IndexPage = (props: PageProps) => (
   <Box sx={{ position: "relative" }}>
     <Navigation />
-    <Container sx={{ mt: 8 }}>
+    <HeroSection />
+    {/* <Container sx={{ mt: 8 }}>
       <Grid2 container spacing={4}>
-        <Grid2
-          item
-          sm={6}
-          sx={{
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-          }}
-        >
-          <Typography variant="h2" gutterBottom>
-            Steady Profit & Trading Guidance
-          </Typography>
-          <Typography gutterBottom>
-            AlphaTradeZone will help you grow in the trading world! Take our
-            hand and let’s get started!
-          </Typography>
-          <Box display={"flex"} sx={{ alignItems: "center" }}>
-            <Button variant="contained">Join Premium</Button>
-            <Fab
-              size="small"
-              sx={{ ml: 4, mr: 1, boxShadow: "none" }}
-              color="secondary"
-              disableRipple
-              disableTouchRipple
-              disableFocusRipple
-            >
-              <PlayArrow sx={{ color: "white" }} />
-            </Fab>
-            <Typography>How it works {">"}</Typography>
-          </Box>
-        </Grid2>
-        <Grid2 item sm={6}>
-          <StaticImage src="../phones.svg" />
-        </Grid2>
         <Grid2 item xs={12}>
           <svg
             style={{ marginRight: 20 }}
@@ -349,9 +317,9 @@ const IndexPage = (props: PageProps) => (
           <Button variant="contained">Join Premium</Button>
         </Grid2>
       </Grid2>
-    </Container>
+    </Container> */}
 
-    <Box sx={{ bgcolor: "#1E212D", mt: 15, pt: 5, pb: 5 }}>
+    {/* <Box sx={{ bgcolor: "#1E212D", mt: 15, pt: 5, pb: 5 }}>
       <Container>
         <Grid2 container>
           <Grid2 item xs={12} sm={4}>
@@ -485,7 +453,7 @@ const IndexPage = (props: PageProps) => (
           </Grid2>
         </Grid2>
       </Container>
-    </Box>
+    </Box> */}
 
     {/* <Container>
           <Grid2 container>

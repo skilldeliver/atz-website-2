@@ -14,7 +14,7 @@ import { Menu } from "@mui/icons-material";
 export const Navigation = () => (
   <AppBar position="static" sx={{ mt: { xs: 2, sm: 3 } }}>
     <Toolbar>
-      <Container sx={{ display: "flex", alignItems: "center" }} maxWidth="xl">
+      <Container sx={{ display: "flex", alignItems: "center" }}>
         <Box sx={{ display: { xs: "none", sm: "block" } }}>
           <GatsbyLink to="/">
             <AtzLogo />
