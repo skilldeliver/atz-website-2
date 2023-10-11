@@ -1,0 +1,12 @@
+{
+  "name": "atz",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "https://github.com/ATZ-WEBSITE/atz.git",
+  "author": "kdichev <konstantin.dichev@gmail.com>",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ]
+}
