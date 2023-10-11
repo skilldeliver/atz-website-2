@@ -1,7 +1,4 @@
-import React from "react";
-
-export const Phones = () => (
-  <svg
+<svg
     width="438"
     height="500"
     viewBox="0 0 438 500"
@@ -105,4 +102,3 @@ export const Phones = () => (
       />
     </defs>
   </svg>
-);
