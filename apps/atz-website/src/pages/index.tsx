@@ -44,7 +44,7 @@ const IndexPage = (props: PageProps) => (
           </Box>
         </Grid2>
         <Grid2 item sm={6}>
-          <StaticImage src="../phones.svg" alt="phones" loading="eager" />
+          <StaticImage src="../phones.svg" />
         </Grid2>
         <Grid2 item xs={12}>
           <svg
