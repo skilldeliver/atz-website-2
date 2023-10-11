@@ -1,12 +1,16 @@
 import React from "react";
-import { Box, Button, Typography } from "@mui/material";
+import { Box, Button, Container, Typography } from "@mui/material";
 import { PageProps } from "gatsby";
+import { Navigation } from "../components/Navigation";
 
 const IndexPage = (props: PageProps) => {
   return (
     <Box>
-      <Typography variant="h3">index page</Typography>
-      <Button>ATZ</Button>
+      <Navigation />
+      <Container>
+        <Typography variant="h3">index page</Typography>
+        <Button>ATZ</Button>
+      </Container>
     </Box>
   );
 };
