@@ -33,7 +33,7 @@ export const KeyBenefitsSection = () => {
                   sx={{
                     position: "absolute",
                     left: "calc(50% - 16px)",
-                    top: "calc(50% - 19px)",
+                    top: "calc(50% - 16px)",
                   }}
                 />
               ),
@@ -45,7 +45,7 @@ export const KeyBenefitsSection = () => {
                   sx={{
                     position: "absolute",
                     left: "calc(50% - 16px)",
-                    top: "calc(50% - 19px)",
+                    top: "calc(50% - 16px)",
                   }}
                 />
               ),
@@ -57,14 +57,14 @@ export const KeyBenefitsSection = () => {
                   sx={{
                     position: "absolute",
                     left: "calc(50% - 16px)",
-                    top: "calc(50% - 19px)",
+                    top: "calc(50% - 16px)",
                   }}
                 />
               ),
             },
           ].map((i) => (
             <Box sx={{ display: "flex", alignItems: "center", mb: 2.5 }}>
-              <Box sx={{ position: "relative" }}>
+              <Box sx={{ position: "relative", width: 48, height: 48 }}>
                 <ChipIcon />
                 {i.icon}
               </Box>

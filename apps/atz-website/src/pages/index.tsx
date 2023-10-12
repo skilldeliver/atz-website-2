@@ -8,141 +8,14 @@ import { Facebook, PlayArrow } from "@mui/icons-material";
 import { StaticImage } from "gatsby-plugin-image";
 import { HeroSection } from "../components/HeroSection";
 import { KeyBenefitsSection } from "../components/KeyBenefitsSection";
+import { WhyAreWeBetterSection } from "../components/WhyAreWeBetterSection";
 
 const IndexPage = (props: PageProps) => (
   <Box sx={{ position: "relative" }}>
     <Navigation />
     <HeroSection />
     <KeyBenefitsSection />
-    <Container sx={{ mt: 8 }}>
-      <Grid2 container spacing={4}>
-        <Grid2 item xs={12} sm={6}>
-          <Typography variant="h3" gutterBottom>
-            5 Reasons why we are better
-          </Typography>
-          <Typography variant="h5" gutterBottom>
-            Don’t like reading? Watch the video!
-          </Typography>
-          <Box
-            sx={{ height: 336, backgroundColor: "black", width: "100%" }}
-          ></Box>
-        </Grid2>
-        <Grid2 item xs={12} sm={6}>
-          {[
-            {
-              title: "Proven track record",
-              body: "All our trades since 2017 can be verified. Every.Single.Trade.",
-            },
-            {
-              title: "LIVE trade management",
-              body: "After we fire a signal, our best trader is managing it live to ensure maximum profit and eliminate risk ASAP. This is valid for EVERY trade. Usually crypto signal groups just forget about the trade after they give you a signal. We are in a league of our own.",
-            },
-            {
-              title: "We NEVER stopped learning. It’s a lifelong process",
-              body: "We keep exploring new and better approaches to trading to ensure higher quality signals. Our skill has immensely improved in time. Markets are more competitive so improving is key to consistency.",
-            },
-            {
-              title: "Hedged trading strategies",
-              body: "We incorporate diversified approach to trading. Some strategies perform better in different market conditions, that’s how we ensure lower risk exposure, less drawdowns and consistent performance.",
-            },
-            {
-              title: "Personal approach",
-              body: "Having an individual issue? We are open to discuss personal issues/struggles/obstacles. Our goal is to help EACH and every one of you.",
-            },
-          ].map((i) => (
-            <Box sx={{ display: "flex", mb: 3 }}>
-              <Box sx={{ width: 48, height: 48 }}>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="48"
-                  height="48"
-                  viewBox="0 0 48 48"
-                  fill="none"
-                >
-                  <g filter="url(#filter0_b_136_62)">
-                    <circle
-                      cx="24"
-                      cy="24"
-                      r="24"
-                      fill="url(#paint0_linear_136_62)"
-                      fill-opacity="0.5"
-                    />
-                    <circle
-                      cx="24"
-                      cy="24"
-                      r="23.3004"
-                      stroke="url(#paint1_linear_136_62)"
-                      stroke-opacity="0.5"
-                      stroke-width="1.39925"
-                    />
-                  </g>
-                  <defs>
-                    <filter
-                      id="filter0_b_136_62"
-                      x="-39.1791"
-                      y="-39.1791"
-                      width="126.358"
-                      height="126.358"
-                      filterUnits="userSpaceOnUse"
-                      color-interpolation-filters="sRGB"
-                    >
-                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                      <feGaussianBlur
-                        in="BackgroundImageFix"
-                        stdDeviation="19.5896"
-                      />
-                      <feComposite
-                        in2="SourceAlpha"
-                        operator="in"
-                        result="effect1_backgroundBlur_136_62"
-                      />
-                      <feBlend
-                        mode="normal"
-                        in="SourceGraphic"
-                        in2="effect1_backgroundBlur_136_62"
-                        result="shape"
-                      />
-                    </filter>
-                    <linearGradient
-                      id="paint0_linear_136_62"
-                      x1="15.6716"
-                      y1="-5.38449e-07"
-                      x2="40.7635"
-                      y2="33.4978"
-                      gradientUnits="userSpaceOnUse"
-                    >
-                      <stop stop-color="#A0B1EC" />
-                      <stop offset="1" stop-color="#DAE0F9" />
-                    </linearGradient>
-                    <linearGradient
-                      id="paint1_linear_136_62"
-                      x1="36.5"
-                      y1="43.5"
-                      x2="3.74502"
-                      y2="21.4312"
-                      gradientUnits="userSpaceOnUse"
-                    >
-                      <stop stop-color="#C8D1EE" />
-                      <stop offset="1" stop-color="#E6EAFA" />
-                    </linearGradient>
-                  </defs>
-                </svg>
-              </Box>
-              <Box sx={{ ml: 2 }}>
-                <Typography fontWeight={"bold"} gutterBottom>
-                  {i.title}
-                </Typography>
-                <Typography>{i.body}</Typography>
-              </Box>
-            </Box>
-          ))}
-        </Grid2>
-        <Grid2 item xs={12} sx={{ display: "flex", justifyContent: "center" }}>
-          <Button variant="contained">Join Premium</Button>
-        </Grid2>
-      </Grid2>
-    </Container>
-
+    <WhyAreWeBetterSection />
     <Box sx={{ bgcolor: "#1E212D", mt: 15, pt: 5, pb: 5 }}>
       <Container>
         <Grid2 container>
