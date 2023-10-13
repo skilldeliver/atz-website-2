@@ -27,57 +27,75 @@ const IndexPage = (props: PageProps) => (
           <Grid xs={12} sm={3}>
             <AtzLogo fill="white" />
           </Grid>
-          <Grid xs={12} sm={3}>
-            <Typography gutterBottom color="white">
+          <Grid xs={6} sm={3}>
+            <Typography
+              color="#D6DFFA"
+              textTransform="uppercase"
+              fontWeight={700}
+              fontSize={14}
+              sx={{ mb: { xs: 2, sm: 3 } }}
+            >
               Navigation
             </Typography>
-            <Typography gutterBottom color="white">
+            <Typography sx={{ mb: { xs: 2, sm: 3 } }} color="#D6DFFA">
               Home
             </Typography>
-            <Typography gutterBottom color="white">
+            <Typography sx={{ mb: { xs: 2, sm: 3 } }} color="#D6DFFA">
               Blog
             </Typography>
-            <Typography gutterBottom color="white">
+            <Typography sx={{ mb: { xs: 2, sm: 3 } }} color="#D6DFFA">
               Join Premium
             </Typography>
-            <Typography gutterBottom color="white">
+            <Typography sx={{ mb: { xs: 2, sm: 3 } }} color="#D6DFFA">
               Contact Us
             </Typography>
-            <Typography gutterBottom color="white">
+            <Typography sx={{ mb: { xs: 2, sm: 3 } }} color="#D6DFFA">
               Partners
             </Typography>
-            <Typography gutterBottom color="white">
+            <Typography sx={{ mb: { xs: 2, sm: 3 } }} color="#D6DFFA">
               Results
             </Typography>
           </Grid>
-          <Grid xs={12} sm={3}>
-            <Typography gutterBottom color="white">
+          <Grid xs={6} sm={3}>
+            <Typography
+              color="#D6DFFA"
+              textTransform="uppercase"
+              fontWeight={700}
+              fontSize={14}
+              sx={{ mb: { xs: 2, sm: 3 } }}
+            >
               Follow Us
             </Typography>
-            <Typography gutterBottom color="white">
+            <Typography sx={{ mb: { xs: 2, sm: 3 } }} color="#D6DFFA">
               Telegram
             </Typography>
-            <Typography gutterBottom color="white">
+            <Typography sx={{ mb: { xs: 2, sm: 3 } }} color="#D6DFFA">
               Discord
             </Typography>
-            <Typography gutterBottom color="white">
+            <Typography sx={{ mb: { xs: 2, sm: 3 } }} color="#D6DFFA">
               Discussion
             </Typography>
-            <Typography gutterBottom color="white">
+            <Typography sx={{ mb: { xs: 2, sm: 3 } }} color="#D6DFFA">
               YouTube
             </Typography>
-            <Typography gutterBottom color="white">
+            <Typography sx={{ mb: { xs: 2, sm: 3 } }} color="#D6DFFA">
               Twitter
             </Typography>
           </Grid>
-          <Grid xs={12} sm={3}>
-            <Typography gutterBottom color="white">
+          <Grid xs={6} sm={3}>
+            <Typography
+              color="#D6DFFA"
+              textTransform="uppercase"
+              fontWeight={700}
+              fontSize={14}
+              sx={{ mb: { xs: 2, sm: 3 } }}
+            >
               Privacy
             </Typography>
-            <Typography gutterBottom color="white">
+            <Typography sx={{ mb: { xs: 2, sm: 3 } }} color="#D6DFFA">
               Privacy Policy
             </Typography>
-            <Typography gutterBottom color="white">
+            <Typography sx={{ mb: { xs: 2, sm: 3 } }} color="#D6DFFA">
               Terms of Service
             </Typography>
           </Grid>
@@ -88,11 +106,12 @@ const IndexPage = (props: PageProps) => (
       <Container sx={{ pt: 2.5, pb: 2.5 }}>
         <Grid container>
           <Grid xs={12} sm={3}>
-            <Typography color="white">© 2023 AlphaTradeZone.</Typography>
-            <Typography color="white">All rights reserved.</Typography>
+            <Typography fontSize={12} color="#999999" sx={{ mb: 2 }}>
+              © 2023 AlphaTradeZone. All rights reserved.
+            </Typography>
           </Grid>
           <Grid xs={12} sm={9}>
-            <Typography color="white">
+            <Typography fontSize={12} color="#D6DFFA">
               Your trading decisions are your responsibility. Investing in
               Cryptocurrenices involves substancial risk of loss and may not be
               suitable for all investors risk profiles. Trading such assets is
