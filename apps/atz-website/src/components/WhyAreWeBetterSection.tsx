@@ -114,7 +114,7 @@ export const WhyAreWeBetterSection = () => {
           ))}
         </Grid>
         <Grid xs={12} sx={{ display: "flex", justifyContent: "center" }}>
-          <Button variant="contained" size="large">
+          <Button variant="contained" size="large" to="https://app.alphatradezone.com/">
             Join Premium
           </Button>
         </Grid>
