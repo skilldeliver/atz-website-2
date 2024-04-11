@@ -1,6 +1,7 @@
 import { CheckCircle } from "@mui/icons-material";
-import { Box, Button, Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import React from "react";
+import { Button } from "gatsby-theme-material-ui"
 
 export const PricingTable = ({ title, subtitle, price, options = [] }) => (
   <Box sx={{ bgcolor: "#E5EBFE", borderRadius: "7px" }}>
@@ -52,7 +53,7 @@ export const PricingTable = ({ title, subtitle, price, options = [] }) => (
         </Typography>
         {price}
       </Typography>
-      <Button variant="contained" size="large" fullWidth>
+      <Button variant="contained" size="large" fullWidth to="https://app.alphatradezone.com/">
         JOIN now
       </Button>
     </Box>
