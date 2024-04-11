@@ -1,5 +1,5 @@
 import { PlayArrow } from "@mui/icons-material";
-import { Box, Button, Container, Fab, Typography } from "@mui/material";
+import { Box, Container, Fab, Typography } from "@mui/material";
 import Grid from "@mui/material/Unstable_Grid2/Grid2";
 import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
@@ -7,6 +7,7 @@ import { YoutubeLogo } from "./YoutubeLogo";
 import { TelegramLogo } from "./TelegramLogo";
 import { DiscordLogo } from "./DiscordLogo";
 import { FacebookLogo } from "./FacebookLogo";
+import { Button } from "gatsby-theme-material-ui"
 
 export const HeroSection = () => (
   <Container sx={{ mt: { xs: 2, sm: 10 } }}>
@@ -49,6 +50,7 @@ export const HeroSection = () => (
             variant="contained"
             sx={{ width: { xs: "100%", sm: "initial" } }}
             size="large"
+            to="https://app.alphatradezone.com/"
           >
             Join Premium
           </Button>
