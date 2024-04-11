@@ -3,7 +3,6 @@ import {
   AppBar,
   Backdrop,
   Box,
-  Button,
   Collapse,
   Container,
   Drawer,
@@ -15,7 +14,7 @@ import {
   Toolbar,
 } from "@mui/material";
 import { AtzLogo, AtzLogoSmall } from "../components/AtzLogo";
-import { GatsbyLink, Link, ListItemButton } from "gatsby-theme-material-ui";
+import { GatsbyLink, Link, ListItemButton, Button } from "gatsby-theme-material-ui";
 import {
   Close,
   ExpandLess,
@@ -73,6 +72,7 @@ export const Navigation = () => {
               <Button
                 variant="contained"
                 sx={{ display: { xs: "none", sm: "block" } }}
+                to="https://app.alphatradezone.com/"
               >
                 Join Premium
               </Button>

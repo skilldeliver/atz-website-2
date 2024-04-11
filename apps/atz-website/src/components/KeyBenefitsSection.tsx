@@ -1,10 +1,11 @@
-import { Box, Button, Container, Typography } from "@mui/material";
+import { Box, Container, Typography } from "@mui/material";
 import Grid from "@mui/material/Unstable_Grid2/Grid2";
 import React from "react";
 import { ChipIcon } from "./ChipIcon";
 import { AlarmClockIcon } from "./AlarmClockIcon";
 import { ShieldIcon } from "./ShieldIcon";
 import { LineFileIcon } from "./LineFileIcon";
+import { Button } from "gatsby-theme-material-ui"
 
 export const KeyBenefitsSection = () => {
   return (
@@ -75,6 +76,7 @@ export const KeyBenefitsSection = () => {
             variant="contained"
             sx={{ mt: { xs: 0, sm: 3 }, width: { xs: "100%", sm: "initial" } }}
             size="large"
+            to="https://app.alphatradezone.com/"
           >
             Join Premium
           </Button>
