@@ -1,5 +1,5 @@
 name = "atz-website"
-pages_build_output_dir="./app/atz-website/public"
+pages_build_output_dir="./public"
 
 compatibility_flags = []
 compatibility_date = "2024-04-14"
