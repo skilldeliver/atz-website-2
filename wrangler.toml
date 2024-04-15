@@ -1,5 +1,4 @@
 name = "atz-website"
-type = "webpack"
 pages_build_output_dir="./app/atz-website/public"
 
 compatibility_flags = []
